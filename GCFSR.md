@@ -42,3 +42,9 @@ pixel-wise metrics (PSNR and SSIM) and the perceptual metric (LPIPS )
 4.对feature modulation进行分析  
 5.只用一种损失函数对（4和8）这种small factor产生最好的结果  
 6.style modulation:用眼睛和头发展示细节生成效果
+## 目前能想到的仍存在的问题  
+1.对于**背景知识**GAN网络只做了大概了解，具体的优缺点文章中有提到但是不能很好地理解  （priors）  
+2.GCFSR 的实现方法，**网络结构细节**不是很理解，只知道整体框架，不会算法实现，也没有找到源码  
+3.文章中提到的相关论文尚未阅读：比如style-modulation的出处  
+4.数学公式推导，一些**变量含义**不理解  
+5.浏览了一下FSR和SR的综述，感觉各种各样的算法很纷乱，应该尝试加深了解以把握**各种算法的区别与联系**
